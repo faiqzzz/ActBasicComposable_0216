@@ -51,6 +51,12 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontFamily = FontFamily.Serif,
                 color = oceanBlue
             )
+            Text(
+                text = "Ini adalah halaman login,",
+                fontSize = 16.sp,
+                fontFamily = FontFamily.SansSerif,
+                color = Color.DarkGray
+            )
         }
     }
 }
