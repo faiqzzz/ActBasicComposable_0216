@@ -86,6 +86,16 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.Bold,
                 color = oceanBlue
             )
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "20240140216",
+                fontSize = 15.sp,
+                fontWeight = FontWeight.SemiBold,
+                letterSpacing = 1.sp,
+                color = charcoalDark
+            )
         }
     }
 }
