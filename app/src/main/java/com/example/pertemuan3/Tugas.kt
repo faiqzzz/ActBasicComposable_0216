@@ -8,10 +8,12 @@ import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
 import androidx.compose.foundation.layout.size
+import androidx.compose.foundation.shape.CircleShape
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
 import androidx.compose.ui.Modifier
+import androidx.compose.ui.draw.clip
 import androidx.compose.ui.graphics.Color
 import androidx.compose.ui.layout.ContentScale
 import androidx.compose.ui.res.painterResource
@@ -95,6 +97,17 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontWeight = FontWeight.SemiBold,
                 letterSpacing = 1.sp,
                 color = charcoalDark
+            )
+
+            Spacer(modifier = Modifier.height(40.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.profile_img),
+                contentDescription = "Foto Profil",
+                modifier = Modifier
+                    .size(190.dp)
+                    .clip(CircleShape),
+                contentScale = ContentScale.Crop
             )
         }
     }
