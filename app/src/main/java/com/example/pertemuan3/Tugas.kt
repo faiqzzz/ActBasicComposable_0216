@@ -7,6 +7,7 @@ import androidx.compose.foundation.layout.Spacer
 import androidx.compose.foundation.layout.fillMaxSize
 import androidx.compose.foundation.layout.height
 import androidx.compose.foundation.layout.padding
+import androidx.compose.foundation.layout.size
 import androidx.compose.material3.Text
 import androidx.compose.runtime.Composable
 import androidx.compose.ui.Alignment
@@ -56,6 +57,15 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 fontSize = 16.sp,
                 fontFamily = FontFamily.SansSerif,
                 color = Color.DarkGray
+            )
+
+            Spacer(modifier = Modifier.height(30.dp))
+
+            Image(
+                painter = painterResource(id = R.drawable.logo_umy),
+                contentDescription = "Logo UMY",
+                modifier = Modifier.size(110.dp),
+                contentScale = ContentScale.Fit
             )
         }
     }
