@@ -24,3 +24,13 @@ import androidx.compose.ui.unit.dp
 import androidx.compose.ui.unit.sp
 import com.example.pertemuan3.ui.theme.Pertemuan3Theme
 
+@Composable
+fun TataLetakColumn(modifier: Modifier) {
+    Column(modifier = modifier.padding(top = 20.dp, start = 20.dp, end = 20.dp)) {
+        Text(text = "komponen1")
+        Text(text = "Komponen2")
+        Text(text = "komponen3")
+        Text(text = "Komponen4")
+    }
+}
+
