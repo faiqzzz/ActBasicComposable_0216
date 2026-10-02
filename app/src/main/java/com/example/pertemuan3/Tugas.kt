@@ -77,6 +77,15 @@ fun HalamanLogin(modifier: Modifier = Modifier) {
                 letterSpacing = 2.sp,
                 color = softRose
             )
+
+            Spacer(modifier = Modifier.height(4.dp))
+
+            Text(
+                text = "Ridho Faiq Ahmad",
+                fontSize = 20.sp,
+                fontWeight = FontWeight.Bold,
+                color = oceanBlue
+            )
         }
     }
 }
